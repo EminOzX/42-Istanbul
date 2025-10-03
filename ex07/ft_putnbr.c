@@ -6,7 +6,7 @@
 /*   By: muhamoz <muhamoz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/28 13:58:13 by muhamoz           #+#    #+#             */
-/*   Updated: 2025/09/30 14:00:51 by muhamoz          ###   ########.fr       */
+/*   Updated: 2025/09/30 14:05:51 by muhamoz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,4 +37,10 @@ void	ft_putnbr(int nb)
 	{
 		ft_putchar(nb + 48);
 	}
+}
+
+int main ()
+{
+	ft_putnbr(345);
+	return 0;
 }
